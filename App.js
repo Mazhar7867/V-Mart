@@ -6,15 +6,11 @@ function App() {
   return (
     <div>
       <NavBaarTop />
-
       <div className='bg-gray-50 '>
-
-      
       <div className=' ml-[10%] mr-[10%]  '>
       <MainSection/>
-      <div className='grid grid-cols-5 gap-4 shadow-sm border-gray-400 bg-none'>
-
-      <MainSectionMain imgUrl="https://falseeyelashes.co.uk/cdn/shop/files/essence-bye-bye-panda-eyes-smudge-proof-volumizing-and-defining-mascara-1.jpg?v=1718895433" name="  Beauty" information="Essence Mascara" rating="4.94" price="$9.45" />
+      <div className='grid grid-cols-5 gap-4 shadow-sm border-gray-400 bg-none'>      
+       <MainSectionMain imgUrl="https://falseeyelashes.co.uk/cdn/shop/files/essence-bye-bye-panda-eyes-smudge-proof-volumizing-and-defining-mascara-1.jpg?v=1718895433" name="  Beauty" information="Essence Mascara" rating="4.94" price="$9.45" />
       <MainSectionMain imgUrl="https://falseeyelashes.co.uk/cdn/shop/files/essence-bye-bye-panda-eyes-smudge-proof-volumizing-and-defining-mascara-1.jpg?v=1718895433" name="  Beauty" information="Eyeshadow Palette" rating="3.29" price="$19.99" />
       <MainSectionMain imgUrl="https://falseeyelashes.co.uk/cdn/shop/files/essence-bye-bye-panda-eyes-smudge-proof-volumizing-and-defining-mascara-1.jpg?v=1718895433" name="  Beauty" information="Powder Canister" rating="3.82" price="$14.99" />
       <MainSectionMain imgUrl="https://falseeyelashes.co.uk/cdn/shop/files/essence-bye-bye-panda-eyes-smudge-proof-volumizing-and-defining-mascara-1.jpg?v=1718895433" name="  Beauty" information="Red Nail Polish" rating="3.91" price="$8.99" />
@@ -37,92 +33,4 @@ function App() {
     </div>
   )
 }
-
 export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-// import Phonebook from './Phonebook';
-// import SingleContact from './SingleContact';
-
-
-// function App() {
-// const router = createBrowserRouter([
-// {
-// path:"/information",
-// element: <P   honebook/>,
-// children:[
-//   {
-//     path:":userName"
-//   }
-// ]
-// },
-// {
-// path:"/information/:userName",
-// element: <SingleContact/>
-// },
-
-// ]);
-
-// return(
-// <>
-// <RouterProvider router={router}/>
-
-// </>
-// )
-// }
-
-// export default App
